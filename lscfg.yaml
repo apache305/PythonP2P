@@ -1,0 +1,11 @@
+soft:    
+    S1:       
+       blockNum: 12       
+       blockAddr: ADDR    
+    S2:       
+       blockNum: 12       
+       blockAddr: ADDR    
+    S3:       
+       blockNum: 12       
+       blockAddr: ADDR
+clubthreshold: 100

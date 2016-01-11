@@ -1,0 +1,19 @@
+# control info for each exp machines
+# this is an example
+
+# each machine name must be unique
+# name of an execution item starts with app name(LS/ST/VP/CMD)
+# name of execution items within one machine mustn't duplicate
+
+machines:
+    test_machine1:
+        info:
+            address: 192.168.0.1:12345
+        exec:
+            LS1: arg_for_LS1
+            ST1: arg_for_LS1
+    public.ivic.org.cn:
+        info:
+            address: 192.168.0.2:12345
+        exec: 
+            CMD1: some_command
